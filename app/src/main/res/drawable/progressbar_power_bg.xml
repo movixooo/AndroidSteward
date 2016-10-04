@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape>
+            <stroke android:color="@color/textcolor" android:width="1dp"/>
+            <corners android:radius="5dp"></corners>   <!--四个角的圆弧-->
+            <solid android:color="#ffffff"></solid> <!--颜色-->
+        </shape>
+    </item>
+    <item android:id="@android:id/background">
+        <clip>
+            <shape>
+                <corners android:radius="5dp"></corners>
+                <solid android:color="@color/ashy"></solid>
+            </shape>
+        </clip>
+    </item>
+</layer-list>

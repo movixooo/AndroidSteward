@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <azsecuer.androidy.com.azsecuer.azsecuer.android.com.Home.view.PiecharView
+        android:id="@+id/pb_software_activity"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="center_vertical" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textcolor"
+        android:text="手机空间分配情况"
+        android:id="@+id/textView"
+        android:layout_marginRight="44dp"
+        android:layout_marginEnd="44dp"
+        android:layout_alignTop="@+id/pb_software_activity"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="19dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/notification_information_progress_green"
+        android:id="@+id/imageView2"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/textView"
+        android:layout_toStartOf="@+id/textView" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/notification_information_progress_yellow"
+        android:id="@+id/imageView"
+        android:layout_marginBottom="22dp"
+        android:layout_alignBottom="@+id/pb_software_activity"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_alignStart="@+id/imageView2" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="内置空间"
+        android:id="@+id/textView2"
+        android:textColor="@color/textcolor"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/imageView2"
+        android:layout_toEndOf="@+id/imageView2"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="外置空间"
+        android:textColor="@color/textcolor"
+        android:id="@+id/textView3"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+    <TextView
+        android:id="@+id/tv_software_inlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/cyan"
+        android:text="0B"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="24dp"
+        android:layout_marginEnd="24dp" />
+    <TextView
+        android:id="@+id/tv_software_extraposition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/orange"
+        android:text="0B"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignLeft="@+id/tv_software_inlay"
+        android:layout_alignStart="@+id/tv_software_inlay" />
+</RelativeLayout>

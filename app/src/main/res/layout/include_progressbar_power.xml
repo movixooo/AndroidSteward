@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:gravity="center_vertical">
+<azsecuer.androidy.com.azsecuer.azsecuer.android.com.Home.view.MoveProgressBar
+    style="?android:attr/progressBarStyleHorizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="100dp"
+    android:layout_weight="1"
+    android:max="100"
+    android:progress="10"
+    android:progressDrawable="@drawable/progressbar_power_bg"
+    android:id="@+id/progressBar"
+    />
+    <View
+        android:layout_width="10dp"
+        android:layout_height="30dp"
+        android:background="@color/ashy"
+        android:layout_weight="0"
+        />
+    <TextView
+        android:id="@+id/tv_power_info"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="@color/ashy"
+        android:text="50%"
+        />
+</LinearLayout>

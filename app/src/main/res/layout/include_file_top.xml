@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:layout_height="match_parent">
+<TextView
+    android:layout_marginTop="30dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#ffffff"
+    android:textSize="@dimen/TV_setting_textsize"
+    android:text="已发现"
+    android:id="@+id/textView4"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/tv_file_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/TVsize"
+        android:textColor="#ffffff"
+        android:text="45.40M"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/tv_file_depth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textsize"
+        android:textColor="#ffffff"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:gravity="center"
+        android:background="@drawable/file_depth_accelerate"
+        android:text="深度加速"
+        android:layout_below="@+id/tv_file_size"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="20dp"
+        />
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:weightSum="3"
+tools:context=".azsecuer.android.com.Home.activity.TelTypeActivity">
+<include
+    layout="@layout/home_activity_1"
+    />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="189dp"
+    android:gravity="center"
+    android:background="#00ff99"
+    android:textSize="@dimen/TV_setting_textsize"
+    android:textColor="@color/textcolor"
+    android:text="@string/tv_message_text"
+    />
+<ListView
+    android:id="@+id/lv_tel_list"
+    android:layout_weight="2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    />
+</LinearLayout>

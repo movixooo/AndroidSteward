@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_accelerate">手机加速</string>
+    <string name="app_name">安卓管家</string>
+    <string name="app_software">软件管理</string>
+    <string name="app_detection">手机检测</string>
+    <string name="app_message">通讯大全</string>
+    <string name="app_file">文件管理</string>
+    <string name="app_clean">垃圾清理</string>
+    <string name="stall_install">设置</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="tv_open_text">开机启动</string>
+    <string name="tv_autostart_text">通知图标</string>
+    <string name="tv_aboutus_text">关于我们</string>
+    <string name="tv_help_text">帮助说明</string>
+    <string name="tv_message_text">一站式号码服务平台</string>
+    <string name="tv_accelerate_text">显示系统进程</string>
+    <string name="tv_accelerate_Bottom">一键清理</string>
+    <string name="speedup_button_systemp_show">显示系统进程</string>
+    <string name="speedup_button_systemp_hide">隐藏系统进程</string>
+</resources>

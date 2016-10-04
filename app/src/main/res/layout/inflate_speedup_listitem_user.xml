@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@drawable/home_entry_item"
+    android:clickable="true"
+    android:padding="8dp" >
+
+    <CheckBox
+        android:id="@+id/cb_speedup_clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:button="@drawable/check_select" />
+
+    <ImageView
+        android:id="@+id/iv_speedup_icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/cb_speedup_clear"
+        android:src="@drawable/azy" />
+
+    <TextView
+        android:id="@+id/tv_speedup_lable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/iv_speedup_icon"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/iv_speedup_icon"
+        android:singleLine="true"
+        android:text="QQ"
+        android:textColor="@color/textcolor"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_speedup_memory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/iv_speedup_icon"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/iv_speedup_icon"
+        android:singleLine="true"
+        android:text="内存：10.2mb"
+        android:textColor="@color/textcolor"
+        android:textSize="12sp" />
+
+</RelativeLayout>
